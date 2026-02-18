@@ -18,6 +18,10 @@ app.add_middleware(
 class ChatRequest(BaseModel):
     message: str
 
+@app.get("/")
+def root():
+    return {"status": "Inito Sense backend live"}
+
 @app.post("/chat")
 async def chat(req: ChatRequest):
     response = get_ai_response(req.message)
