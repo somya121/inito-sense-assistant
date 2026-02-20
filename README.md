@@ -7,5 +7,3 @@ Fertility education queries (PdG, LH, ovulation, hormone tracking)
 Inito device usage questions
 
 App troubleshooting queries
-
-Product + GTM-related prompts (demo use case)
